@@ -2,6 +2,8 @@
 name: Windows MSI (test build)
 
 on:
+  push:
+    branches: [windows-build]
   workflow_dispatch:
 
 permissions:
